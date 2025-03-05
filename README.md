@@ -1,6 +1,4 @@
-# Sales-analysis (Interactive dashboard using Excel and SQL)
-
-# Sales Analytics Project
+# Sales Analytics Project (Interactive dashboard using Excel and SQL)
 
 ## Introduction
 This project aims to provide insights into sales and sales trends for the client. The goal is to analyze revenue with respect to region, store, product category, and brand, as well as identify top customers and best-performing sales representatives. The analysis is visualized using an Excel dashboard.

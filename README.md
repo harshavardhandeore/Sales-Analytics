@@ -11,7 +11,7 @@ The objectives of this project are to:
 - Provide actionable insights through an Excel dashboard for better decision-making.
 
 ## Dataset Used
-Dataset was created using following SQL query:
+Data was present in two different databases (production & sales) so, following query was used to fetch the required data from both the databases and create a required dataset
 
 ```sql
 SELECT

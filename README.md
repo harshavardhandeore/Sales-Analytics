@@ -13,6 +13,7 @@ The objectives of this project are to:
 ## Dataset Used
 Dataset was created using following SQL query:
 
+```sql
 SELECT
     ord.order_id, 
     CONCAT(cus.first_name, ' ', cus.last_name) AS name, 

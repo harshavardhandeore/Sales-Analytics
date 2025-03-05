@@ -70,8 +70,6 @@ The analysis was conducted using the following steps:
 ## Dashboard
 [Dashboard](https://github.com/harshavardhandeore/Sales-Analytics/raw/main/Dashboard.jpg)
 
-https://github.com/your_username/your_repo/raw/main/path_to_image/dashboard_screenshot.png)
-
 ## Project Insights
 - **Revenue Trends:** Revenue peaked in 2017 with $1,200,000, followed by a slight decrease in 2018 to $600,000.
 - **Monthly Revenue:** Monthly revenue trends show fluctuations with notable peaks and troughs.

@@ -26,6 +26,7 @@ SELECT
     SUM(orit.quantity * orit.list_price) AS revenue, 
     stor.store_name,
     CONCAT(stf.first_name, ' ', stf.last_name) AS representative
+    
 FROM 
     sales.orders AS ord
     JOIN sales.customers AS cus ON ord.customer_id = cus.customer_id 
@@ -35,6 +36,7 @@ FROM
     JOIN production.categories AS cat ON prod.category_id = cat.category_id
     JOIN sales.stores AS stor ON ord.store_id = stor.store_id
     JOIN sales.staffs AS stf ON stor.store_id = stf.store_id
+    
 GROUP BY
     ord.order_id, 
     CONCAT(cus.first_name, ' ', cus.last_name), 
@@ -45,6 +47,7 @@ GROUP BY
     cat.category_name, 
     brnd.brand_name,
     CONCAT(stf.first_name, ' ', stf.last_name)
+    
 ORDER BY
     ord.order_id;
 
